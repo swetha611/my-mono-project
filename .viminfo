@@ -10,13 +10,20 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1680613449,,"wq"
+|2,0,1680616706,,"wq"
+:q
+|2,0,1680615762,,"q"
 :330
 |2,0,1680613371,,"330"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1680615745,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -27,230 +34,270 @@
 # Registers:
 
 # File marks:
-'0  14  3  /etc/ansible/ansible.cfg
-|4,48,14,3,1680613449,"/etc/ansible/ansible.cfg"
-'1  6  4  /opt/ansible/inventory/aws_ec2.yml
-|4,49,6,4,1680612672,"/opt/ansible/inventory/aws_ec2.yml"
-'2  331  23  /etc/ansible/ansible.cfg
-|4,50,331,23,1680612609,"/etc/ansible/ansible.cfg"
-'3  331  23  /etc/ansible/ansible.cfg
-|4,51,331,23,1680612609,"/etc/ansible/ansible.cfg"
-'4  3  59  ~/ansible/code/tasks/main.yml
-|4,52,3,59,1680606982,"~/ansible/code/tasks/main.yml"
-'5  71  6  ~/index.html
-|4,53,71,6,1680606514,"~/index.html"
-'6  5  8  ~/ansible/webservers/tasks/main.yml
-|4,54,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
-'7  5  20  ~/ansible/code/tasks/main.yml
-|4,55,5,20,1680605686,"~/ansible/code/tasks/main.yml"
-'8  5  20  ~/ansible/code/tasks/main.yml
-|4,56,5,20,1680605686,"~/ansible/code/tasks/main.yml"
-'9  2  35  ~/ansible/dependencies/tasks/main.yml
-|4,57,2,35,1680604306,"~/ansible/dependencies/tasks/main.yml"
+'0  1  28  ~/terraform/main.tf
+|4,48,1,28,1680616706,"~/terraform/main.tf"
+'1  7  6  ~/terraform/security.tf
+|4,49,7,6,1680616219,"~/terraform/security.tf"
+'2  1  7  ~/terraform/provider.tf
+|4,50,1,7,1680616147,"~/terraform/provider.tf"
+'3  7  3  ~/terraform/main.tf
+|4,51,7,3,1680616065,"~/terraform/main.tf"
+'4  7  3  ~/terraform/main.tf
+|4,52,7,3,1680616065,"~/terraform/main.tf"
+'5  1  0  ~/ansible/roles/main.yml
+|4,53,1,0,1680615817,"~/ansible/roles/main.yml"
+'6  1  0  ~/ansible
+|4,54,1,0,1680615762,"~/ansible"
+'7  14  3  /etc/ansible/ansible.cfg
+|4,55,14,3,1680613449,"/etc/ansible/ansible.cfg"
+'8  6  4  /opt/ansible/inventory/aws_ec2.yml
+|4,56,6,4,1680612672,"/opt/ansible/inventory/aws_ec2.yml"
+'9  331  23  /etc/ansible/ansible.cfg
+|4,57,331,23,1680612609,"/etc/ansible/ansible.cfg"
 
 # Jumplist (newest first):
+-'  1  28  ~/terraform/main.tf
+|4,39,1,28,1680616706,"~/terraform/main.tf"
+-'  7  3  ~/terraform/main.tf
+|4,39,7,3,1680616599,"~/terraform/main.tf"
+-'  7  6  ~/terraform/security.tf
+|4,39,7,6,1680616219,"~/terraform/security.tf"
+-'  7  6  ~/terraform/security.tf
+|4,39,7,6,1680616219,"~/terraform/security.tf"
+-'  26  26  ~/terraform/security.tf
+|4,39,26,26,1680616155,"~/terraform/security.tf"
+-'  26  26  ~/terraform/security.tf
+|4,39,26,26,1680616155,"~/terraform/security.tf"
+-'  1  7  ~/terraform/provider.tf
+|4,39,1,7,1680616147,"~/terraform/provider.tf"
+-'  1  7  ~/terraform/provider.tf
+|4,39,1,7,1680616147,"~/terraform/provider.tf"
+-'  1  7  ~/terraform/provider.tf
+|4,39,1,7,1680616147,"~/terraform/provider.tf"
+-'  1  7  ~/terraform/provider.tf
+|4,39,1,7,1680616147,"~/terraform/provider.tf"
+-'  4  53  ~/terraform/provider.tf
+|4,39,4,53,1680616098,"~/terraform/provider.tf"
+-'  4  53  ~/terraform/provider.tf
+|4,39,4,53,1680616098,"~/terraform/provider.tf"
+-'  4  53  ~/terraform/provider.tf
+|4,39,4,53,1680616098,"~/terraform/provider.tf"
+-'  4  53  ~/terraform/provider.tf
+|4,39,4,53,1680616098,"~/terraform/provider.tf"
+-'  7  3  ~/terraform/main.tf
+|4,39,7,3,1680616065,"~/terraform/main.tf"
+-'  7  3  ~/terraform/main.tf
+|4,39,7,3,1680616065,"~/terraform/main.tf"
+-'  7  3  ~/terraform/main.tf
+|4,39,7,3,1680616065,"~/terraform/main.tf"
+-'  7  3  ~/terraform/main.tf
+|4,39,7,3,1680616065,"~/terraform/main.tf"
+-'  11  0  ~/terraform/main.tf
+|4,39,11,0,1680615848,"~/terraform/main.tf"
+-'  11  0  ~/terraform/main.tf
+|4,39,11,0,1680615848,"~/terraform/main.tf"
+-'  11  0  ~/terraform/main.tf
+|4,39,11,0,1680615848,"~/terraform/main.tf"
+-'  11  0  ~/terraform/main.tf
+|4,39,11,0,1680615848,"~/terraform/main.tf"
+-'  11  0  ~/terraform/main.tf
+|4,39,11,0,1680615848,"~/terraform/main.tf"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible/roles/main.yml
+|4,39,1,0,1680615817,"~/ansible/roles/main.yml"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
+-'  1  0  ~/ansible
+|4,39,1,0,1680615762,"~/ansible"
 -'  14  3  /etc/ansible/ansible.cfg
 |4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
--'  331  23  /etc/ansible/ansible.cfg
-|4,39,331,23,1680613357,"/etc/ansible/ansible.cfg"
--'  6  4  /opt/ansible/inventory/aws_ec2.yml
-|4,39,6,4,1680612672,"/opt/ansible/inventory/aws_ec2.yml"
--'  6  4  /opt/ansible/inventory/aws_ec2.yml
-|4,39,6,4,1680612672,"/opt/ansible/inventory/aws_ec2.yml"
--'  331  23  /etc/ansible/ansible.cfg
-|4,39,331,23,1680612609,"/etc/ansible/ansible.cfg"
--'  331  23  /etc/ansible/ansible.cfg
-|4,39,331,23,1680612609,"/etc/ansible/ansible.cfg"
--'  3  59  ~/ansible/code/tasks/main.yml
-|4,39,3,59,1680606982,"~/ansible/code/tasks/main.yml"
--'  3  59  ~/ansible/code/tasks/main.yml
-|4,39,3,59,1680606982,"~/ansible/code/tasks/main.yml"
--'  3  59  ~/ansible/code/tasks/main.yml
-|4,39,3,59,1680606982,"~/ansible/code/tasks/main.yml"
--'  3  59  ~/ansible/code/tasks/main.yml
-|4,39,3,59,1680606982,"~/ansible/code/tasks/main.yml"
--'  3  59  ~/ansible/code/tasks/main.yml
-|4,39,3,59,1680606982,"~/ansible/code/tasks/main.yml"
--'  3  59  ~/ansible/code/tasks/main.yml
-|4,39,3,59,1680606982,"~/ansible/code/tasks/main.yml"
--'  3  59  ~/ansible/code/tasks/main.yml
-|4,39,3,59,1680606982,"~/ansible/code/tasks/main.yml"
--'  3  59  ~/ansible/code/tasks/main.yml
-|4,39,3,59,1680606982,"~/ansible/code/tasks/main.yml"
--'  5  20  ~/ansible/code/tasks/main.yml
-|4,39,5,20,1680606922,"~/ansible/code/tasks/main.yml"
--'  5  20  ~/ansible/code/tasks/main.yml
-|4,39,5,20,1680606922,"~/ansible/code/tasks/main.yml"
--'  5  20  ~/ansible/code/tasks/main.yml
-|4,39,5,20,1680606922,"~/ansible/code/tasks/main.yml"
--'  5  20  ~/ansible/code/tasks/main.yml
-|4,39,5,20,1680606922,"~/ansible/code/tasks/main.yml"
--'  5  20  ~/ansible/code/tasks/main.yml
-|4,39,5,20,1680606922,"~/ansible/code/tasks/main.yml"
--'  5  20  ~/ansible/code/tasks/main.yml
-|4,39,5,20,1680606922,"~/ansible/code/tasks/main.yml"
--'  5  20  ~/ansible/code/tasks/main.yml
-|4,39,5,20,1680606922,"~/ansible/code/tasks/main.yml"
--'  5  20  ~/ansible/code/tasks/main.yml
-|4,39,5,20,1680606922,"~/ansible/code/tasks/main.yml"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  71  6  ~/index.html
-|4,39,71,6,1680606514,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  1  0  ~/index.html
-|4,39,1,0,1680606478,"~/index.html"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  5  8  ~/ansible/webservers/tasks/main.yml
-|4,39,5,8,1680605958,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
--'  1  0  ~/ansible/webservers/tasks/main.yml
-|4,39,1,0,1680605764,"~/ansible/webservers/tasks/main.yml"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
+-'  14  3  /etc/ansible/ansible.cfg
+|4,39,14,3,1680613449,"/etc/ansible/ansible.cfg"
 
 # History of marks within files (newest to oldest):
+
+> ~/terraform/main.tf
+	*	1680616703	0
+	"	1	28
+	^	1	29
+	.	1	28
+	+	4	24
+	+	7	4
+	+	5	54
+	+	11	0
+	+	5	49
+	+	6	37
+	+	7	3
+	+	1	28
+
+> ~/terraform/security.tf
+	*	1680616215	0
+	"	7	6
+	^	7	7
+	.	7	7
+	+	26	26
+	+	25	6
+	+	28	0
+	+	19	6
+	+	13	6
+	+	7	7
+
+> ~/terraform/provider.tf
+	*	1680616143	0
+	"	1	7
+	^	1	8
+	.	1	7
+	+	5	0
+	+	3	33
+	+	4	53
+	+	1	7
+
+> ~/ansible/roles/main.yml
+	*	1680615800	0
+	"	1	0
 
 > /etc/ansible/ansible.cfg
 	*	1680613444	0
@@ -324,29 +371,3 @@
 	^	27	29
 	.	27	28
 	+	27	28
-
-> ~/terraform/security.tf
-	*	1680600296	0
-	"	26	26
-	^	26	27
-	.	26	26
-	+	26	26
-
-> ~/terraform/main.tf
-	*	1680599506	0
-	"	10	0
-	^	10	1
-	.	10	0
-	+	4	24
-	+	6	4
-	+	5	54
-	+	10	0
-
-> ~/terraform/provider.tf
-	*	1680598621	0
-	"	4	53
-	^	4	54
-	.	4	53
-	+	5	0
-	+	3	33
-	+	4	53
