@@ -4,23 +4,25 @@ description = "it allows ssh and all all traffic"
 ingress {
 from_port = 22
 to_port = 22
-protocal = "tcp"
+protocol = "tcp"
 cidr_blocks = ["0.0.0.0/0"]
 }
 egress {
 from_port = 22
 to_port = 22
-protocal = "tcp"
+protocol = "tcp"
 cidr_blocks = ["0.0.0.0/0"]
 }
 ingress {
 from_port = 0
 to_port = 0
-protocal = "-1"
+protocol = "-1"
 cidr_blocks = ["0.0.0.0/0"]
 }
 egress {
 from_port = 0
 to_port = 0
-protocal = "-1"
+protocol = "-1"
 cidr_blocks = ["0.0.0.0/0"]
+}
+}
